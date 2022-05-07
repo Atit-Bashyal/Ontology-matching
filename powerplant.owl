@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/nodir/ontologies/2021/0/power-plant"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/nodir/ontologies/2021/0/power-plant">
+    <Prefix name="" IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/power-plant"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Anlagen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Hersteller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Photovoltaikanlagen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#PowerPlant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Rotor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#TimeSeriesData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Wasserkraftanlagen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Windkraftanlagen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasAnlagen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHersteller"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasPosition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasRotor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasTimeSeriesData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Inbetriebnahme"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasBezeichnung"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHubHeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasLatitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasLeistung"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasLongtitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasTyp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://w3id.org/saref#hasName"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:gYear"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Photovoltaikanlagen"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#PowerPlant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Wasserkraftanlagen"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#PowerPlant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Windkraftanlagen"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#PowerPlant"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Photovoltaikanlagen"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Wasserkraftanlagen"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Windkraftanlagen"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasAnlagen"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHersteller"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasPosition"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasRotor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasTimeSeriesData"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasAnlagen"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#PowerPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHersteller"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Anlagen"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasPosition"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#PowerPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasRotor"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Windkraftanlagen"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasTimeSeriesData"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#PowerPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasAnlagen"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Anlagen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHersteller"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Hersteller"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasPosition"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Position"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasRotor"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Rotor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasTimeSeriesData"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#TimeSeriesData"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasAnlagen"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHersteller"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasPosition"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasRotor"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasTimeSeriesData"/>
+    </DisjointObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Inbetriebnahme"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasBezeichnung"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHeight"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHubHeight"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasLatitude"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasLeistung"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasLongtitude"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasTyp"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="https://w3id.org/saref#hasName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Inbetriebnahme"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#PowerPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasBezeichnung"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Anlagen"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHeight"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Position"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHubHeight"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Windkraftanlagen"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasLatitude"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Position"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasLeistung"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#PowerPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasLongtitude"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Position"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasTyp"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Anlagen"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://w3id.org/saref#hasName"/>
+        <Class IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Hersteller"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#Inbetriebnahme"/>
+        <Datatype abbreviatedIRI="xsd:gYear"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasBezeichnung"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHeight"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasHubHeight"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasLatitude"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasLeistung"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasLongtitude"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nodir/ontologies/2021/0/untitled-ontology-3#hasTyp"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://w3id.org/saref#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
